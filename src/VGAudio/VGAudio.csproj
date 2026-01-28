@@ -4,16 +4,19 @@
     <TargetFrameworks>netstandard1.1;net45</TargetFrameworks>
 
     <AssemblyTitle>VGAudio</AssemblyTitle>
-    <Authors>Alex Barney</Authors>
+    <Authors>Alex Barney, LogicallyAnime</Authors>
     <Copyright>Copyright © 2016 Alex Barney</Copyright>
-    <Description>A library for encoding, decoding, and manipulating audio files from video games.</Description>
-    <PackageTags>audio;dspadpcm;adpcm;brstm;Nintendo</PackageTags>
+    <Description>An updated fork of Alex Barney's library for encoding, decoding, and manipulating audio files from video games.</Description>
+    <PackageTags>audio;dspadpcm;adpcm;brstm;Nintendo;CriWare;hca</PackageTags>
     <PackageProjectUrl>https://github.com/Thealexbarney/VGAudio</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/Thealexbarney/VGAudio</RepositoryUrl>
+    <RepositoryUrl>https://github.com/logicallyanime/VGAudio</RepositoryUrl>
     <NoWarn>$(NoWarn);1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.3.0</Version>
+    <Company />
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.1' ">
