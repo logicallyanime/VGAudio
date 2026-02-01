@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.0;net451</TargetFrameworks>
-    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netstandard2.0;net472</TargetFrameworks>
 
     <AssemblyName>VGAudioCli</AssemblyName>
     <AssemblyTitle>VGAudio.Cli</AssemblyTitle>

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.1;net45</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
 
     <AssemblyTitle>VGAudio</AssemblyTitle>
     <Authors>Alex Barney, LogicallyAnime</Authors>
@@ -17,6 +17,9 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>2.3.0</Version>
     <Company />
+    <PackageId>VGAudio-fork</PackageId>
+    <Title>VGAudio</Title>
+
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.1' ">
